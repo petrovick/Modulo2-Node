@@ -1,0 +1,21 @@
+{% extends "_layouts/default.njk" %}
+
+{% block body %}
+  <div class="content">
+    <strong>Horários Agendados</strong>
+
+    <div class="provider">
+      <div>
+        <img src="/files/{{provider.avatar}}" />
+        <strong>{{provider.name}}</strong>
+      </div>
+    </div>
+
+      {%for appointment in appointmentsMade %}
+        <p>{{appointment.date}} - {{appointment.client}}</p>
+      {% endfor %}
+
+    {% include "_partials/sair.njk" %}
+  </div>
+
+{% endblock %}
