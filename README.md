@@ -20,6 +20,6 @@ Obs: O passo 1 irá baixar todos os pacotes de dependência do projeto.
 O passo 2 irá iniciarlizar o banco de dados postgres com o docker, lembrando que o mesmo já deve estar instalado.
 Já o passo 3 irá criar a base de dados no banco dentro do docker.
 
-Qualquer dúvida entre em contato com petrovick@hotmail.com
+Qualquer dúvida entre em contato com petrovickg@hotmail.com
 
 
